@@ -1,0 +1,43 @@
+INT Main
+    100% correta
+
+
+    REGISTRAR()
+        faz uso da função SALVARDADOS()
+        na primeira vez que esta função é chamada ela é chamada apenas pelo o menu e subsequentemente pela a função CALLBACK()
+        100% correta
+    CONSULTA()
+        similarmente à função REGISTRAR a primeira ela é acessado pelo o menu e então pela função CALLBACK()
+        100% correta
+    DELETAR()
+        similar as outras funções esta função faz uso do CALLBACK()
+        pode fazer uso de uma função para checar se o usuário foi deleta corretamente
+        100% correta
+    CALLBACK()
+        quando dada uma função ela será responsavel por chamar a função novamente
+        inicia e encerra a sí mesma caso usuário selecione não continuar
+        100% correta
+    SALVARDADOS()
+        salva os dados do usuário que está sendo registrado
+        inicia na função REGISTRAR() e termina em sí mesma
+        100% correta
+
+cénario de teste: 1
+
+login: 100% correto
+
+Inserir:
+    menu funcionou corretamente
+    criou o arquivo corretamente contendo os dados
+
+consultar:
+    menu funcionou corretamente
+    consulta a cpf inexistente: ok
+    consulta a cpf existente: ok
+    retorno a o menu: ok
+
+deletar:
+    menu funcionou corretamente
+    100% funcional
+
+100%
